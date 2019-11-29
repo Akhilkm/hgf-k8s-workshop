@@ -9,12 +9,12 @@ ingress:
   path: /
   hosts:
     # TODO: Change this to your Domain Name
-    - ca.akhgf.cfinx.com
+    - ca.ahgf.cfinx.com
   tls:
     - secretName: ca--tls
       hosts:
         # TODO: Change this to your Domain Name
-        - ca.akhgf.cfinx.com
+        - ca.ahgf.cfinx.com
 
 persistence:
   accessMode: ReadWriteOnce
